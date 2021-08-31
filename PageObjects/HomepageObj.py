@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class firstPage:
-   # name = (By.CSS_SELECTOR, "input[name='name']:nth-child(2)")
+    name = (By.CSS_SELECTOR, "input[name='name']:nth-child(2)")
     email = (By.NAME, "email")
     password = (By.ID, "exampleInputPassword1")
     checkbox = (By.CSS_SELECTOR, "input[type='checkbox']")
